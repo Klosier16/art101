@@ -1,0 +1,89 @@
+html, body {
+  font-family: Copperplate, fantasy;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #FFE4E1;
+}
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+.major-section {
+  border: dotted 1px #FFB6C1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 95%;
+  margin: 20px;
+  margin-bottom: 5px;
+  background-color: #483D8B;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+}
+h1, h2, h3 {
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 40px;
+  margin-bottom: auto;
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin-block-start: 0.60em;
+  margin-block-end: 0.60em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.skills{
+  margin-bottom: 3px;
+}
+
+h3{
+  font-size: 30px;
+  display: block;
+  margin-block-start: 0.60em;
+  margin-block-end: 0.60em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  font-size: 18px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+
+
+#my-portrait {
+  width: 200px;
+  float: left;
+  margin: 9px;
+}
+
+img{
+  height: auto;
+}
