@@ -1,0 +1,41 @@
+#file_structure {
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+
+#home_html1 {
+  width: 400px;
+  height: 500px;
+  float: center;
+}
+
+#home_html2 {
+  width: 400px;
+  height: 500px;
+  float: center;
+}
+
+#home_html3 {
+  width: 400px;
+  height: 500px;
+  float: right;
+}
+
+#art101_homepage {
+  width: 600px;
+  height: 500px;
+  float: left;
+}
+
+#lab3_html {
+  width: 400px;
+  height: 500px;
+  float: center;
+}
+
+#lab3_page {
+  width: 600px;
+  height:500px;
+  float: right;
+}
