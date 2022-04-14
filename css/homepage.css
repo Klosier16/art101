@@ -12,7 +12,7 @@ body{
 }
 
 .major-section {
-  border: dotted 2px #A0522D;
+  border: solid 2px #A0522D;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -82,6 +82,7 @@ li {
   width: 200px;
   float: left;
   margin: 9px;
+  border: solid 2px #A0522D
 }
 
 img{
