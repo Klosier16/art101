@@ -13,29 +13,29 @@
 #home_html2 {
   width: 400px;
   height: 500px;
-  float: center;
+  float: right;
 }
 
 #home_html3 {
   width: 400px;
   height: 500px;
-  float: right;
+  float: left;
 }
 
 #art101_homepage {
   width: 600px;
   height: 500px;
-  float: left;
+  float: center;
 }
 
 #lab3_html {
   width: 400px;
   height: 500px;
-  float: center;
+  float: right;
 }
 
 #lab3_page {
   width: 600px;
   height:500px;
-  float: right;
+  float: center;
 }
