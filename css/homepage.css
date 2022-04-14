@@ -81,13 +81,10 @@ li {
 #my-portrait {
   width: 190px;
   float: left;
-  margin-left: 9px;
-  margin-top: 9px;
+  margin: 0 15px 0 0;
   border: solid 2px #A0522D
 }
 
 img{
   height: auto;
-  margin-left: 9px;
-  margin-top: 9px;
 }
