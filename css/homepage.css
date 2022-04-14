@@ -79,7 +79,7 @@ li {
 
 
 #my-portrait {
-  width: 200px;
+  width: 190px;
   float: left;
   margin-left: 9px;
   margin-top: 9px;
@@ -89,5 +89,5 @@ li {
 img{
   height: auto;
   margin-left: 9px;
-  margin-top: 9px;  
+  margin-top: 9px;
 }
