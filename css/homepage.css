@@ -12,14 +12,14 @@ body{
 }
 
 .major-section {
-  border: dotted 1px #FFB6C1;
+  border: dotted 5px #7B68EE;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
   width: 95%;
   margin: 20px;
   margin-bottom: 5px;
-  background-color: #483D8B;
+  background-color: #DEB887;
 }
 
 p {
