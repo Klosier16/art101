@@ -81,7 +81,7 @@ li {
 #my-portrait {
   width: 200px;
   float: left;
-  margin: 15px 15px 0 0;
+  margin: 15px 15px 15px 15px;
   border: solid 2px #A0522D
 }
 
