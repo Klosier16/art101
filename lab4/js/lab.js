@@ -17,4 +17,4 @@
     // If character = delimiter
     // Print newline
     // Else: print character
-// view results
+// View results
