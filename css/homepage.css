@@ -94,6 +94,14 @@ li {
   border: solid 2px #A0522D
 }
 
+#momandken {
+  height: 400px;
+  width: 300px;
+  float: right;
+  margin: 0px 15px 15px 0px;
+  border: solid 2px #A0522D
+}
+
 img{
   height: auto;
 }
