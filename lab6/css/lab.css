@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+#report {
+  width: 75%;
+  background-color: #e9e9e9;
+  padding: 10px;
+}
+
+.output {
+  background-color: black;
+  color: green;
+  font-family: monospace;
+  width: 700px;
+  padding: 10px;
+}
+
+#imagebox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  text-align: center;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+}
+
+#left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+  float: left;
+}
+
+#right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+  float: left;
+}
+
+figcaption {
+  width: 400px;
+  text-align: center;
+}
