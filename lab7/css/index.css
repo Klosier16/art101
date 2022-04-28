@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: #c7caff;
+}
+
+#title {
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.output {
+  background-color: black;
+  color: green;
+  font-family: monospace;
+  width: 800px;
+  padding: 10px;
+}
+
+p {
+  width: 800px;
+}
+
+#title h3 {
+  color: #b8b211;
+}
+
+#notTitle {
+  padding-left: 5px;
+}
