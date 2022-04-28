@@ -71,21 +71,23 @@ function spacedAnagram(name) {
   var strArray = [];
   // for loop starting at i = 0, increment i until the length is reached
   for (var i = 0; i < length; i++) {
-    // if statement - if the elements within the array reach a space, then
+    // if statement - if the elements within the array reach a space,
     if (nameArray[i] == " ") {
-      //
+      // push the current string into our output
       finalArray.push(anagram(strArray.join("")));
-      // redefines strArray as an array for rest of the function
+      // redefines strArray as an array for rest of the function, reset the string
       strArray = [];
     }
     // else if statement saying if the element is equal to the 1 less than the
-    // length,
+    // length, which is the last element,
     else if (i == (length - 1)) {
+      // push the last element into the string
       strArray.push(nameArray[i]);
+      // push the last string into the output
       finalArray.push(anagram(strArray.join("")));
     }
     // else statement - if not everything else before, then take the strArray
-    // and
+    // and push the element into the string
     else {
       strArray.push(nameArray[i]);
     }
