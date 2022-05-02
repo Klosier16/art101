@@ -1,5 +1,5 @@
 // Summary: Lab 4 pseudocode - Kenny Losier and Shayan Bathaee
-// Description: This file contains pseudocode for our chosen ncomputer task (parsing
+// Description: This file contains pseudocode for our chosen computer task (parsing
 //              a file and replacing the delimiter with a new line)
 // @link   https://canvas.ucsc.edu/courses/52418/assignments/330575
 // @file   lab.js - The file you are in right now. Contains the pseudocode
