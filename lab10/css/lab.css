@@ -1,6 +1,23 @@
 body {
   font-family: sans-serif;
-  background-color: #6495ed;
+  background-image: url(../img/back.png);
+  color: #FFF5EE;
+}
+
+#content {
+  background-color: #191970;
+  width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+#report {
+  padding: 10px;
 }
 
 #title {
@@ -13,21 +30,22 @@ body {
 }
 
 #output {
-  background-color: black;
-  color: green;
+  background-color: #4B0082;
+  color: coral;
   font-family: monospace;
   width: 800px;
   padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: coral;
 }
+
 
 p {
   width: 800px;
 }
 
 #title h3 {
-  color: #483d8b;
+  color: #DC143C;
 }
-
-#notTitle {
-  padding-left: 5px;
-}
+#4B0082coral#DC143C

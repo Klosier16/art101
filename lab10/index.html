@@ -9,37 +9,35 @@
 	<div id=content>
 		<div id=report>
 			<div id="title">
-				<h1>Lab 9: JavaScript Events & Forms</h1>
+				<h1>Lab 10: JavaScript Events & Forms</h1>
 				<h3>By Kenny Losier and Shayan Bathaee</h3>
 			</div>
 			<h2>Challenge</h2>
 			<p>
-				The challenge for this particular lab is to experiment with DOM manipulation.
-				We were asked to create new elements in JavaScript associated with our
-				output div in our HTML file, then display our understanding of changing their
-				attributes and appending them to one another.
+				The challenge for this lab is to experiment with JavaScript events with
+				a partner. The goal is to attach an event listener to our buttons that
+				retrieves the values of our input fields, runs the values through
+				our functions, saves the results, and replaces this html in <xmp><div id="output"></xmp>
+				with the results.
 			</p>
 			<h2>Problems</h2>
 			<p>
-				This lab for us was particularly straightforward and simple. However,
-				we did have an issue figuring out a way to initialize two buttons in our
-				JavaScript that would display in our HTML and the local website separately.
-				After we were able to figure that out by debugging and using Professor
-				Modes' slideshow, we had an issue figuring out how to separate the buttons
-				with whitespace and figuring out how to append one button before the other.
-				Taking on Task X was a slight issue for us, but we were able to figure it
-				out fairly quickly on our own! We had some more fun and decided to change
-				the color of the buttons and the colors of the text that appear once each
-				button is clicked!
+				Overall, we both were able to conquer this lab with miniscule problems that appeared.
+				The first problem we encountered was how to implement the html id code as plain text
+				under our "Challenge" section. Until the end of our coding, we both forgot to import
+				our swap function and implement each button with a corresponding event listener.
 			</p>
 			<h2>Results</h2>
 			<p>
-				Our results are displayed on this HTML website! Enjoy button mashing!
+				Our results are displayed on this HTML website! Click each button to display
+				the each differing result! Try different inputs and have fun!
 			</p>
-		</div>
-		<h3>Script Output</h3>
-		<div id="output">
-			<button onClick = "javascript:main()">Click Me and Decide Your Fate!</button>
+			<h3>Script Output</h3>
+			<div id="output">
+				<button id="spacedAnagramBtn">Generate a Properly Spaced Anagram of Your Name</button><br>
+				<button id="randomAnagramBtn">Generate a Randomly Spaced Anagram of Your Name</button><br>
+				<button id="sortBtn">Click Me to Sort Your Name Alphabetically!</button>
+			</div>
 		</div>
 	</div>
 </body>
