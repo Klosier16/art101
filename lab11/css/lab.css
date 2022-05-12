@@ -1,11 +1,11 @@
 body {
   font-family: sans-serif;
-  background-image: url(../img/back.png);
+  background-image: url(../img/rockTexture.jpg);
   color: #FFF5EE;
 }
 
 #content {
-  background-color: #191970;
+  background-color: #1d456b;
   width: 850px;
   display: block;
   margin-left: auto;
@@ -42,8 +42,22 @@ body {
 
 p {
   width: 800px;
+  font-size: 12pt;
+  font-weight: lighter;
 }
 
 #title h3 {
   color: #DC143C;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
 }
