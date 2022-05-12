@@ -44,7 +44,7 @@ $("#problemsBtn").click(function() {
       problems.append("<p id='problemsText'>Here were our problems:<br> One of our main " +
       "obstacles that we discovered while implementing the buttons and the paragraphs appended " +
       "to them was that the buttons could infinitely generate the text associated with them. We had " +
-      "to implement an if statment that took us a while to figure out. We also did not properly " +
+      "to implement an if statement that took us a while to figure out. We also did not properly " +
       "format our jQuery functions with semicolons at the end at first. Finally, at the start of calling " +
       "our defined ids, we did not include the pound sign (#), which resulted in no visible or accessible " +
       "buttons until we reworked that.</p>");
