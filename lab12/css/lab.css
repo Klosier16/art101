@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background-image: url(../img/rockTexture.jpg);
+  color: #FFF5EE;
+}
+
+#content {
+  background-color: #1d456b;
+  width: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+#report {
+  padding: 10px;
+}
+
+#title {
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+#output {
+  background-color: #4B0082;
+  color: coral;
+  font-family: monospace;
+  width: 800px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: coral;
+}
+
+p {
+  width: 800px;
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+#title h3 {
+  color: #DC143C;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
