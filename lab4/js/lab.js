@@ -3,7 +3,7 @@
 //              a file and replacing the delimiter with a new line)
 // @link   https://canvas.ucsc.edu/courses/52418/assignments/330575
 // @file   lab.js - The file you are in right now. Contains the pseudocode
-//         index.html - Contains description of the lab, including challenges, problems
+//         pseudocode.html - Contains description of the lab, including challenges, problems
 //                      and results. This file also contains pseudocode from task 1 & task 2.
 //         lab.css - This file contains the stylesheet for index.html
 // @author Kenny Losier & Shayan Bathaee
