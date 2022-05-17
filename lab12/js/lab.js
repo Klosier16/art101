@@ -12,10 +12,11 @@
  * Licence: Public Domain
  */
 
+// sortingHat - takes in a name and outputs the house they belong to
 function sortingHat(name) {
-    var length = name.length;
-    var mod = length % 4;
-    if (mod == 0) {
+    var length = name.length; // get the length of the name
+    var mod = length % 4;     // remainder of length/4
+    if (mod == 0) {           // use if statements to decide which house they belong in
       return "Hufflepuff";
     }
     else if (mod == 1) {
@@ -29,24 +30,27 @@ function sortingHat(name) {
     }
 }
 
+// grabs the name input from the text entry box and outputs the house, and a description of
+// the house (in the HTML document)
 $("#sortButton").click(function() {
-  var name = $("#input").val();
-  var result = sortingHat(name);
+  var name = $("#input").val();   // get name
+  var result = sortingHat(name);  // get hogwarts house
 
+  // select the proper output using the result from sortingHat()
   if (result == "Hufflepuff") {
-    if ($("#out").length == 0) {
+    if ($("#out").length == 0) {  // if output doesn't already exist, append it
       $("#output").append("<p id='out'>The Sorting Hat has sorted you into <span id='hufflepuff'>Hufflepuff!</span></p>");
     }
-    else {
+    else {                        // if output exists, replace it
       $("#out").replaceWith("<p id='out'>The Sorting Hat has sorted you into <span id='hufflepuff'>Hufflepuff!</span></p>");
     }
-    if ($("#description").length == 0) {
+    if ($("#description").length == 0) {  // if description doesn't already exist, append it
       $("#output").append("<p id='description'>Hufflepuff is where you will find the most trustworthy and hardworking students. In " +
       "fact, out of all the houses Hufflepuff has produced the least number of dark witches and wizards. The badger " +
       "is the symbol of this house, the colours are yellow and black, the Head of House is Professor Pomona Sprout " +
       "and the common room can be found near the kitchens in Hogwarts.</p>");
     }
-    else {
+    else {                                // if description exists, replace it
       $("#description").replaceWith("<p id='description'>Hufflepuff is where you will find the most trustworthy and hardworking students. In " +
       "fact, out of all the houses Hufflepuff has produced the least number of dark witches and wizards. The badger " +
       "is the symbol of this house, the colours are yellow and black, the Head of House is Professor Pomona Sprout " +
@@ -114,5 +118,4 @@ $("#sortButton").click(function() {
       "room lies up in Gryffindor Tower and the Head of House is Professor Minerva McGonagall.</p>");
     }
   }
-
 });
