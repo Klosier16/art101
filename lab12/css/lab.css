@@ -1,11 +1,12 @@
 body {
   font-family: sans-serif;
-  background-image: url(../img/rockTexture.jpg);
+  background-image: url(../img/snitch.jpg);
+  background-size: 100px;
   color: #FFF5EE;
 }
 
 #content {
-  background-color: #1d456b;
+  background-color: #5C4033;
   width: 850px;
   display: block;
   margin-left: auto;
@@ -30,14 +31,15 @@ body {
 }
 
 #output {
-  background-color: #4B0082;
-  color: coral;
+  background-color: silver;
+  color: black;
   font-family: monospace;
   width: 800px;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   border-style: solid;
-  border-color: coral;
+  border-color: gold;
 }
 
 p {
@@ -50,14 +52,18 @@ p {
   color: #DC143C;
 }
 
-.yellow {
-  background-color: yellow;
+#gryffindor {
+  color: red;
 }
 
-.red {
-  background-color: red;
+#slytherin {
+  color: green;
 }
 
-.green {
-  background-color: green;
+#hufflepuff {
+  color: yellow;
+}
+
+#ravenclaw {
+  color: blue;
 }
