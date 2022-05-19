@@ -15,22 +15,61 @@
 			</div>
 			<h2>Challenge</h2>
 			<p>
-				...
+				The challenge for this lab was for each of us to experiment with loops. We
+				were assigned a task that would familiarize ourselves with for and if loops
+				within functions that would track multiples of numerical values, and assign
+				a string to each one of them, per the user's desire.
 			</p>
 			<h2>Problems</h2>
 			<p>
-				...
+				During this assignment, we didn't run into too many problems writing our FizzBuzzBoom
+				function. The code posted in the assignment gave us a good starting point to get the
+				function up and running. However, once we started to push past what was given, we
+				were immediately met with some challenges. Our biggest problem was with getting the
+				factorObj formatted properly. Every time we tried to add the number key, we ended up
+				with a string key instead that said "num0". To work around this, we found out that
+				inserting elements to the dictionary using the Object[key] = value method worked
+				for our purposes. Another issue we encountered was with the fizz buzz function itself.
+				In the function, we forgot to reset the output string at the end of our for loop, causing
+				the output to have some weird irregularities. Thankfully, through a lot of console logs and
+				tests, we figured out what the issue was and fixed it.
 			</p>
 			<h2>Results</h2>
 			<p>
-				...
+				The website you are currently on contains our results. Go ahead and input
+				all desired values and examine your results!
 			</p>
 			<div class="input-output">
-				<h3>Welcome to Hogwarts!</h3>
-				<p>Dare to see which house you belong to?</p>
-				Please enter your full name for sorting:
-				<input type="text" id="input">
-				<button id="sortButton">Submit</button><br>
+				When should we stop iterating? <input type="number" min="0" max="1000" id="max"><br>
+				Assign a Word or Phrase to Each Factor!
+				<table>
+					<tr>
+						<th>Factor</th>
+						<th>Assigned Word/Phrase</th>
+					</tr>
+					<tr>
+						<td><input type="number" min="0" max="23"id="num0"></td>
+						<td><input type="text" id="text0"></td>
+					</tr>
+					<tr>
+						<td><input type="number" min="0" max="23"id="num1"></td>
+						<td><input type="text" id="text1"></td>
+					</tr>
+					<tr>
+						<td><input type="number" min="0" max="23"id="num2"></td>
+						<td><input type="text" id="text2"></td>
+					</tr>
+					<tr>
+						<td><input type="number" min="0" max="23"id="num3"></td>
+						<td><input type="text" id="text3"></td>
+					</tr>
+					<tr>
+						<td><input type="number" min="0" max="23"id="num4"></td>
+						<td><input type="text" id="text4"></td>
+					</tr>
+				</table>
+				<button id="submitBtn">Submit</button><br>
+				<h3>Here is Your Output:</h3>
 				<div id="output">
 				</div>
 			</div>

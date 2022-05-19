@@ -1,13 +1,13 @@
 body {
   font-family: sans-serif;
-  background-image: url(../img/snitch.jpg);
-  background-size: 100px;
+  background-image: url(../img/stickfig.png);
+  background-size: 50px;
   color: #FFF5EE;
 }
 
 #content {
-  background-color: #5C4033;
-  width: 850px;
+  background-color: #9370DB;
+  width: 1000px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,28 +26,33 @@ body {
   background-color: black;
   color: white;
   padding: 15px;
-  width: 800px;
+  width: 950px;
   border-radius: 10px;
 }
 
 #output {
-  background-color: silver;
+  background-color: #66CDAA;
   color: black;
   font-family: monospace;
-  width: 800px;
+  width: 950px;
   margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   border-style: solid;
-  border-color: gold;
+  border-color: #C71585;
+  column-count: 4;
 }
 
 p {
-  width: 800px;
+  width: 950px;
   font-size: 12pt;
   font-weight: lighter;
 }
 
+.numLine {
+  font-weight: bolder;
+}
+
 #title h3 {
-  color: #DC143C;
+  color: #7B68EE;
 }
