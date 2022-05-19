@@ -1,7 +1,7 @@
 /*
  * Author: Shayan Bathaee & Kenny Losier
  * Created: 11 May, 2022
- * Description: This file contains the JavaScript code for our Lab 10 Assignment
+ * Description: This file contains the JavaScript code for our Lab 11 Assignment
  * Files:
  *  lab.js - The file you are in right now. Contains the JavaScript & jQuery
  *           code for this lab.
