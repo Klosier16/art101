@@ -1,0 +1,17 @@
+:root {
+	--pixel-size: 2px;
+	--grid-cell: calc( var(--pixel-size) * 16);
+}
+
+#character {
+	width: calc( var(--grid-cell)* 2 );
+	height: calc( var(--grid-cell)* 2 );
+	position: absolute;
+	overflow: hidden;
+}
+
+canvas {
+  background-image: url(../img/pixelbackground.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
