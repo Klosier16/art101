@@ -16,11 +16,23 @@
 				<h2>Challenge</h2>
 				<p>
 					The challenge for this lab is for both partners to experiment with
-					processing JSON from an API.
+					processing JSON from an API. We decided to cycle randomized comic strip
+					endpoints from this API with the push of a button, as well as adding
+					"previous" and "next" buttons as a way to cycle through without it
+					being random. The datatype we used for our AJAX methods are JSON for
+					this lab.
 				</p>
 				<h2>Problems</h2>
 				<p>
-					...
+					One problem we encountered was with trying to make the previous/next buttons
+					loop back to the first and last comic. For example, if the user was at comic
+					number 1 and hit previous, we wanted to show them the last comic (comic number
+					2624). Our initial idea was to use the modulo operator to circularly index the
+					comics. After messing around with that for a while, we struggled to get it to work
+					and ended up abandoning the idea altogether because of the difficulty we had.
+					However, while we were working on the CSS file, we came up with the idea of
+					adding a simple if statement to the next and previous functions that checks 
+					if we are at either end, and if so, brings the user to the last/first comic.
 				</p>
 				<h2>Results</h2>
 				<p>
